@@ -1,0 +1,2 @@
+./configure --enable-pythoninterp --with-features=huge --prefix=$HOME/opt/vim --with-python-config-dir=$(/usr/bin/python2.7-config --configdir)
+make && make install
